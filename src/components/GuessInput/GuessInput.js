@@ -22,6 +22,7 @@ function GuessInput({ handleSetList }) {
         maxLength="5"
         pattern="[a-zA-Z]{5}"
         title="5 letter word"
+        autoComplete="off"
       />
     </form>
   )

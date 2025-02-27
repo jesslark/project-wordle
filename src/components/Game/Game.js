@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 
 import GuessInput from "../GuessInput"
-import Guesses from "../Guesses"
+import GuessList from "../GuessList"
 
 import { sample } from "../../utils"
 import { WORDS } from "../../data"
@@ -20,7 +20,7 @@ function Game() {
 
   return (
     <>
-      <Guesses list={list} />
+      <GuessList list={list} />
 
       <GuessInput list={list} handleSetList={handleSetList} />
     </>
